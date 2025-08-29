@@ -1,0 +1,26 @@
+{
+  "name": "dmoney-transaction-management-api-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "newman run package-lock.json -e package.json -r htmlextra",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maynul1997/Dmoney-Transaction-Mangament-API-test-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maynul1997/Dmoney-Transaction-Mangament-API-test-/issues"
+  },
+  "homepage": "https://github.com/maynul1997/Dmoney-Transaction-Mangament-API-test-#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
